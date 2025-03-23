@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: karla;
+  src: url("../fonts/Karla-Italic.eot");
+  src: url("../fonts/Karla-Italic.ttf");
+  src: url("../fonts/Karla-Italic.woff");
+  src: url("../fonts/Karla-Italic.woff2");
+  src: url("../fonts/Karla-Regular.eot");
+  src: url("../fonts/Karla-Regular.ttf");
+  src: url("../fonts/Karla-Regular.woff");
+  src: url("../fonts/Karla-Regular.woff2");
+}
+@font-face {
+  font-family: CormorantGaramond;
+  src: url("../fonts/Garamond/static/CormorantGaramond-Regular.eot");
+  src: url("../fonts/Garamond/static/CormorantGaramond-Regular.ttf");
+  src: url("../fonts/Garamond/static/CormorantGaramond-Regular.woff");
+  src: url("../fonts/Garamond/static/CormorantGaramond-Regular.woff2");
+}
+@font-face {
+  font-family: Montserrat;
+  src: url("../fonts/Montserrat/Montserrat-Regular.eot");
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+  src: url("../fonts/Montserrat/Montserrat-Regular.woff");
+  src: url("../fonts/Montserrat/Montserrat-Regular.woff2");
+}
+:root {
+  --bg-KnightRider: #0c0606;
+  --bg-CocoBlack: #1c1b17;
+  --bg-SilkenChocolate: #b18165;
+}
+.btn {
+  border: 1px solid #e1dbd7;
+  background-color: transparent;
+  font-family: karla;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
