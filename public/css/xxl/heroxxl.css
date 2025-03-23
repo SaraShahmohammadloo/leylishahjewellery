@@ -5,12 +5,11 @@
   position: absolute;
   top: 112px;
   .banner {
-
     width: 675px;
     height: 264px;
     position: absolute;
-    left: 96px;
-    bottom: 198px;
+    left: 66px;
+    bottom: 188px;
     .titlePart {
       width: 100%;
       & h1 {
@@ -24,7 +23,7 @@
       }
     }
     .description {
-        padding: 0 32px;
+      padding: 26px 32px 38px;
       & pre {
         font-family: Montserrat;
         font-weight: 400;
@@ -34,10 +33,16 @@
         color: white;
       }
     }
-    .btn{
-        margin: 0 32px;
-        padding: 21.5px 17.5px;
+    .btn {
+      width: 145px;
+      height: 51px;
+      margin: 0 32px;
+      color: var(--bg-MistyHaze);
+      &:hover {
+        transition: 300ms;
+        background-color: var(--bg-MistyHaze);
         color: white;
+      }
     }
   }
 }
