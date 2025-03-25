@@ -2,8 +2,12 @@
   width: 100%;
   height: 833px;
   background-image: url("../../images/Rectangle\ 3.png");
-  position: absolute;
-  top: 112px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  margin-top: -2px;
+  box-shadow: 0px 5px 7px 0px #00000040;
   .banner {
     width: 675px;
     height: 264px;
